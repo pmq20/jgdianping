@@ -1,0 +1,198 @@
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB jgdianping_development['system.namespaces'].find({})
+MONGODB jgdianping_development['system.namespaces'].find({})
+MONGODB jgdianping_development['$cmd'].find({:create=>"users"}).limit(-1)
+MONGODB jgdianping_development['$cmd'].find({"count"=>"users", "query"=>{:email=>"user@example.com"}, "fields"=>nil}).limit(-1)
+MONGODB jgdianping_development['$cmd'].find({"count"=>"users", "query"=>{:name=>/^First\ User$/i}, "fields"=>nil}).limit(-1)
+MONGODB jgdianping_development['$cmd'].find({"count"=>"users", "query"=>{:email=>/^user@example\.com$/i}, "fields"=>nil}).limit(-1)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-26 16:22:29 +0800
+  Processing by HomeController#index as HTML
+MONGODB jgdianping_development['system.namespaces'].find({})
+MONGODB jgdianping_development['users'].find({})
+Rendered home/index.html.erb within layouts/application (25.5ms)
+Compiled application.css  (3ms)  (pid 7113)
+Compiled home.css  (11ms)  (pid 7113)
+Compiled normalize.css  (50ms)  (pid 7113)
+Compiled users.css  (2ms)  (pid 7113)
+Compiled application.js  (12ms)  (pid 7113)
+Compiled jquery.js  (5ms)  (pid 7113)
+Compiled jquery_ujs.js  (1ms)  (pid 7113)
+Compiled home.js  (120ms)  (pid 7113)
+Compiled jqueryui.js  (42ms)  (pid 7113)
+Compiled modernizr.js  (1ms)  (pid 7113)
+Compiled users.js  (84ms)  (pid 7113)
+Rendered shared/_navigation.html.erb (2.3ms)
+Completed 200 OK in 679ms (Views: 678.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-26 16:31:54 +0800
+  Processing by HomeController#index as HTML
+MONGODB jgdianping_development['system.namespaces'].find({})
+MONGODB jgdianping_development['users'].find({})
+Rendered home/index.html.erb within layouts/application (3.5ms)
+Rendered shared/_navigation.html.erb (1.2ms)
+Completed 200 OK in 53ms (Views: 21.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-26 16:31:54 +0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-10-26 16:31:54 +0800
+Served asset /home.css - 200 OK (8ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-10-26 16:31:54 +0800
+Served asset /normalize.css - 200 OK (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-10-26 16:31:54 +0800
+Served asset /users.css - 200 OK (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-10-26 16:31:54 +0800
+Served asset /home.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-26 16:31:54 +0800
+Served asset /jquery.js - 200 OK (20ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-26 16:31:54 +0800
+Served asset /jquery_ujs.js - 200 OK (6ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-10-26 16:31:54 +0800
+Served asset /jqueryui.js - 200 OK (10ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-10-26 16:31:54 +0800
+Served asset /modernizr.js - 200 OK (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-10-26 16:31:54 +0800
+Served asset /users.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-26 16:31:54 +0800
+Served asset /application.js - 200 OK (1ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-26 16:54:35 +0800
+  Processing by HomeController#index as HTML
+MONGODB jgdianping_development['system.namespaces'].find({})
+MONGODB jgdianping_development['users'].find({})
+Rendered home/index.html.erb within layouts/application (26.8ms)
+Rendered shared/_navigation.html.erb (1.7ms)
+Completed 500 Internal Server Error in 267ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Setting):
+    28:     </header>
+    29:     <div id="main" role="main">
+    30:       <%= yield %>
+    31: <%= Setting.domain %>
+    32:     </div>
+    33:     <footer>
+    34:     </footer>
+  app/views/layouts/application.html.erb:31:in `_app_views_layouts_application_html_erb___715404716285706434_70319517558300'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-26 16:54:42 +0800
+  Processing by HomeController#index as HTML
+MONGODB jgdianping_development['system.namespaces'].find({})
+MONGODB jgdianping_development['users'].find({})
+Rendered home/index.html.erb within layouts/application (3.7ms)
+Rendered shared/_navigation.html.erb (1.0ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Setting):
+    28:     </header>
+    29:     <div id="main" role="main">
+    30:       <%= yield %>
+    31: <%= Setting.domain %>
+    32:     </div>
+    33:     <footer>
+    34:     </footer>
+  app/views/layouts/application.html.erb:31:in `_app_views_layouts_application_html_erb___715404716285706434_70319517558300'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.4ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-26 16:56:26 +0800
+  Processing by HomeController#index as HTML
+MONGODB jgdianping_development['system.namespaces'].find({})
+MONGODB jgdianping_development['users'].find({})
+Rendered home/index.html.erb within layouts/application (24.2ms)
+Rendered shared/_navigation.html.erb (1.6ms)
+Completed 200 OK in 166ms (Views: 165.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-26 16:56:27 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-10-26 16:56:27 +0800
+Served asset /home.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-10-26 16:56:27 +0800
+Served asset /normalize.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-10-26 16:56:27 +0800
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-10-26 16:56:27 +0800
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-26 16:56:27 +0800
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-26 16:56:27 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-10-26 16:56:27 +0800
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-10-26 16:56:27 +0800
+Served asset /modernizr.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-10-26 16:56:27 +0800
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-26 16:56:27 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1}).limit(-1)
